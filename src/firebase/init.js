@@ -1,9 +1,9 @@
 import firebase from 'firebase'
-import firestore from 'firabase/firestore'
+import firestore from 'firebase/firestore'
 
 // Initialize Firebase
 var config = {
-  apiKey: "AIzaSyAwq9uVfwx0PNDMJhvNGovkRqUj6kj4_x0",
+  apiKey: "AIzaSyAdF1R_q8eo_1AfoNRX35PkoS5annwrcpg",
   authDomain: "geo-ninjas-d10f0.firebaseapp.com",
   databaseURL: "https://geo-ninjas-d10f0.firebaseio.com",
   projectId: "geo-ninjas-d10f0",
@@ -11,5 +11,5 @@ var config = {
   messagingSenderId: "819619438613"
 };
 
-const firabaseApp = firebase.initializeApp(config);
-export default firabaseApp.firestore();
+const firebaseApp = firebase.initializeApp(config);
+export default firebaseApp.firestore();
